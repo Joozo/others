@@ -1,0 +1,129 @@
+.wqd1438087955255css {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  max-width: 1000px;
+  margin: 2em auto;
+  padding: 3em;
+  text-align: center;
+  font-size: 16px;
+}
+.wqd1438087955255css.features .features-row {
+  position: relative;
+  font-size: 100%;
+  border-top: solid 2px #e5e5e5;
+}
+.wqd1438087955255css.features .features-row.border-nore {
+  border-top: none;
+}
+.wqd1438087955255css.features .features-row:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.wqd1438087955255css.features .features-row:first-child {
+  border-top: 0;
+}
+.wqd1438087955255css.features .features-row:first-child .sec {
+  padding-top: 0;
+}
+.wqd1438087955255css.features .features-row .sec {
+  float: left;
+  padding: 3em;
+  width: 50%;
+}
+.wqd1438087955255css.features .features-row .sec:nth-child(2n-1) {
+  padding-left: 0;
+}
+.wqd1438087955255css.features .features-row .sec:nth-child(2n) {
+  padding-right: 0;
+}
+.wqd1438087955255css.features .features-row .sec:nth-child(2n):before {
+  background: #e5e5e5;
+  content: '';
+  display: block;
+  height: 100%;
+  margin-left: -3em;
+  position: absolute;
+  top: 0;
+  width: 2px;
+}
+.wqd1438087955255css.features .features-row .sec :last-child {
+  margin-bottom: 0;
+}
+.wqd1438087955255css .icon {
+  text-decoration: none;
+  border-bottom: none;
+  position: relative;
+}
+.wqd1438087955255css .icon:before {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none !important;
+}
+.wqd1438087955255css .icon.major {
+  background: #666;
+  border-radius: 100%;
+  color: #ffffff;
+  cursor: default;
+  display: inline-block;
+  height: 6.5em;
+  line-height: 6.5em;
+  margin: 0 0 2em 0;
+  width: 6.5em;
+}
+.wqd1438087955255css .icon.major:before {
+  font-size: 3em;
+}
+.wqd1438087955255css .icon.major.accent1 {
+  background: #666;
+  color: #ffffff;
+}
+.wqd1438087955255css .icon.major.accent2 {
+  background: #e89980;
+  color: #ffffff;
+}
+.wqd1438087955255css .icon.major.accent3 {
+  background: #7fcdb8;
+  color: #ffffff;
+}
+.wqd1438087955255css .icon.major.accent4 {
+  background: #90b0ba;
+  color: #ffffff;
+}
+.wqd1438087955255css .icon.major.accent5 {
+  background: #e5cb95;
+  color: #ffffff;
+}
+.wqd1438087955255css .text-h3 {
+  font-size: 2em;
+  line-height: 2em;
+}
+.wqd1438087955255css .text-p {
+  margin: 0 0 2em 0;
+  line-height: 1.5em;
+}
+@media (min-width: 980px) and (max-width: 1169px) {
+  .wqd1438087955255css {
+    max-width: 800px;
+  }
+  .wqd1438087955255css .icon:before {
+    font-size: 2.5em;
+  }
+  .wqd1438087955255css .icon.major {
+    height: 5.5em;
+    line-height: 5.5em;
+    width: 5.5em;
+  }
+  .wqd1438087955255css .text-h3 {
+    font-size: 1.75em;
+    line-height: 1.5em;
+    letter-spacing: -0.025em;
+  }
+  .wqd1438087955255css .text-p {
+    margin: 0 0 2em 0;
+  }
+}
