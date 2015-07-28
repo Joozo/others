@@ -1,0 +1,216 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>微企点大轮播图demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="keywords" content=""> 
+<meta name="description" content="">
+<!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body style="min-height:1800px;">
+	<section class="wqd1436154485980css wqdBkEditos" category="banner" wqdIconColoros="#000" wqdIconBgcoloros="#DDD" wqdHoverColoros="#FF2A40">
+		<style type= text/css >
+			.wqd1436154485980css{position:relative;}
+			.wqd1436154485980css .item-prev{position: absolute;left: 40px;top: 50%;margin-top: -25px;z-index: 100;opacity: 0;transition: all 400ms;background-color: #DDDDDD;color: #000000;border-radius: 50%;}
+			.wqd1436154485980css .item-next{position: absolute;right: 40px;top: 50%;margin-top: -25px;z-index: 100;opacity: 0;transition: all 400ms;background-color: #DDDDDD;color: #000000;border-radius: 50%;}
+			.wqd1436154485980css:hover .item-prev, .wqd1436154485980css:hover .item-next, .wqd1436154485980css:focus .item-prev, .wqd1436154485980css:focus .item-next{opacity: 1;}
+			.wqd1436154485980css .item-prev i, .wqd1436154485980css .item-next i{width: 50px;height: 50px;line-height: 50px;font-size: 40px;text-align: center;}
+			.wqd1436154485980css .item-prev:hover, .wqd1436154485980css .item-next:hover{background-color: #FF2A40;}
+			.wqd1436154485980css .carousel-inner .item{-webkit-transition-property: opacity;-moz-transition-property: opacity;-o-transition-property: opacity;transition-property: opacity;}
+			.wqd1436154485980css .carousel-inner .item:before {content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;background: rgba(0,0,0,.7);}
+			.wqd1436154485980css .carousel-inner .active.left, .wqd1436154485980css .carousel-inner .active.right {left: 0;opacity: 0;z-index: 1;}
+			.wqd1436154485980css .carousel-inner .next.left, .wqd1436154485980css .carousel-inner .prev.right {opacity: 1;}
+			.wqd1436154485980css .describe{text-align: center;padding-top: 84px;}
+			.wqd1436154485980css .describe .texth1{font-size: 40px;font-weight: 700;color: #fff;line-height:1.2;}
+			.wqd1436154485980css .describe .texth1.animated1{animation:wqd1436154485980css1 1s ease 0ms both;-moz-animation:wqd1436154485980css1 1s ease 0ms both;-webkit-animation:wqd1436154485980css1 1s ease 0ms both;}
+			.wqd1436154485980css .describe .textp{font-size: 26px;margin:52px 0 78px;color:#fff;line-height:1.3;}
+			.wqd1436154485980css .describe .textp.animated2{animation:wqd1436154485980css2 1s ease 0ms both;-moz-animation:wqd1436154485980css2 1s ease 0ms both;-webkit-animation:wqd1436154485980css2 1s ease 0ms both;}
+			.wqd1436154485980css .describe .btns{border: 1px solid transparent;margin-bottom:150px;text-align: center;display: inline-block;border-color: #fff;padding: 14px 75px;color:#fff;border-radius: 30px;font-size:16px;font-weight: 400;outline: none;}
+			.wqd1436154485980css .describe a.animated3{animation:wqd1436154485980css3 1s ease 200ms both;-moz-animation:wqd1436154485980css3 1s ease 200ms both;-webkit-animation:wqd1436154485980css3 1s ease 200ms both;}
+			@media (min-width: 980px) and (max-width: 1169px) {
+				.wqd1436154485980css .describe .texth1{font-size: 35px !important;}
+				.wqd1436154485980css .describe .textp{font-size: 22px !important;}
+				.wqd1436154485980css .describe .texth1 span{font-size: 35px !important;}
+				.wqd1436154485980css .describe .textp span{font-size: 22px !important;}
+			}
+			@media (min-width: 768px) and (max-width: 979px) {
+				.wqd1436154485980css .describe .texth1{font-size: 26px !important;}
+				.wqd1436154485980css .describe .textp{font-size: 18px !important;}
+				.wqd1436154485980css .describe .texth1 span{font-size: 26px !important;}
+				.wqd1436154485980css .describe .textp span{font-size: 18px !important;}
+				.wqd1436154485980css .describe .btns{font-size: 12px;margin-bottom: 100px;}
+			}
+			@media (max-width: 767px){
+				.wqd1436154485980css .item-prev{left: 10px;}
+				.wqd1436154485980css .item-next{right: 10px;}
+				.wqd1436154485980css .item-prev i, .wqd1436154485980css .item-next i{width: 30px;height: 30px;line-height: 30px;font-size: 30px;}
+				.wqd1436154485980css .describe{padding-top: 34px;}
+				.wqd1436154485980css .describe .texth1{font-size: 16px !important;}
+				.wqd1436154485980css .describe .textp{font-size: 12px !important; margin:20px 0 30px;}
+				.wqd1436154485980css .describe .texth1 span{font-size: 16px !important;}
+				.wqd1436154485980css .describe .textp span{font-size: 12px !important;}
+				.wqd1436154485980css .describe .btns{padding: 4px 20px;font-size: 12px;margin-bottom: 30px;}
+			}
+			@keyframes wqd1436154485980css1 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, -100%, 0);
+				transform: translate3d(0, -100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-webkit-keyframes wqd1436154485980css1 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, -100%, 0);
+				transform: translate3d(0, -100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-moz-keyframes wqd1436154485980css1 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, -100%, 0);
+				transform: translate3d(0, -100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+
+			@keyframes wqd1436154485980css2 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-webkit-keyframes wqd1436154485980css2 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-moz-keyframes wqd1436154485980css2 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+
+			@keyframes wqd1436154485980css3 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-webkit-keyframes wqd1436154485980css3 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+			@-moz-keyframes wqd1436154485980css3 {
+				0% {
+				opacity: 0;
+				-webkit-transform: translate3d(0, 100%, 0);
+				transform: translate3d(0, 100%, 0);
+				}
+				100% {
+				opacity: 1;
+				-webkit-transform: none;
+				transform: none;
+				}
+			}
+		</style>
+        <div class="carousel slide carousel-fade" data-ride="carousel" data-pause=false>
+            <a class="item-prev wqdElHoveros wqdIconColoros wqdIconBgcoloros wqdChangeBgcoloros" wqdBeforeBgcoloros="#DDD" href=".carousel" role="button" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="item-next wqdElHoveros wqdIconColoros wqdIconBgcoloros wqdChangeBgcoloros" wqdBeforeBgcoloros="#DDD" href=".carousel" role="button" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+            </a>
+            <div class="carousel-inner">
+              	<div class="item active">
+                	<div style="background:url(http://img.wqdian.com/group2/M00/75/32/yq0KEVVr-I-AHuEeAAFq9me9y34882.jpg) no-repeat center center / cover;" wqdImgUrlos="http://img.wqdian.com/group2/M00/75/32/yq0KEVVr-I-AHuEeAAFq9me9y34882.jpg">
+                		<div class="container describe">
+							<h1 class="animated1 texth1" wqdEditos="0">懒人推动科技，科技改变生活</h1>
+							<p class="animated2 textp" wqdEditos="0">这里创意不断，为您创造无限可能</p>
+							<a href="javascript:void(0);" class="btns animated3" wqdEditos="2">了解更多</a>
+						</div>
+                	</div>
+              	</div>
+
+              	<div class="item">
+                	<div style="background:url(http://img.wqdian.com/group2/M00/75/73/yq0KEVVr-gKACCTCAAEX39UJ_ZI609.jpg) no-repeat center center / cover;" wqdImgUrlos="http://img.wqdian.com/group2/M00/75/73/yq0KEVVr-gKACCTCAAEX39UJ_ZI609.jpg">
+                		<div class="container describe">
+							<h1 class="animated1 texth1" wqdEditos="0">懒人推动科技，科技改变生活</h1>
+							<p class="animated2 textp" wqdEditos="0">这里创意不断，为您创造无限可能</p>
+							<a href="javascript:void(0);" class="btns animated3" wqdEditos="2">了解更多</a>
+						</div>
+                	</div>
+              	</div>
+
+              	<div class="item">
+               		<div style="background:url(http://img.wqdian.com/group2/M00/75/7C/yq0KEVVr-jGAdHR1AAFKY1FOTWY645.jpg) no-repeat center center / cover;" wqdImgUrlos="http://img.wqdian.com/group2/M00/75/7C/yq0KEVVr-jGAdHR1AAFKY1FOTWY645.jpg">
+               			<div class="container describe">
+							<h1 class="animated1 texth1" wqdEditos="0">懒人推动科技，科技改变生活</h1>
+							<p class="animated2 textp" wqdEditos="0">这里创意不断，为您创造无限可能</p>
+							<a href="javascript:void(0);" class="btns animated3" wqdEditos="2">了解更多</a>
+						</div>
+               		</div>
+            	</div>
+            </div>
+        </div>
+    </section>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
