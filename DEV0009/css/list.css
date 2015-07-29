@@ -1,30 +1,22 @@
 .wqd1438084545967css {
-  margin: 0 auto;
-  width: 96%;
-  max-width: 960px;
-  padding-bottom: 60px;
   font-family: "Microsoft Yahei";
-}
-.wqd1438084545967css .fade {
-  -webkit-transition: all 750ms ease-in-out;
-  transition: all 750ms ease-in-out;
 }
 .wqd1438084545967css .news-table {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 2em 0;
 }
 .wqd1438084545967css .news-table li {
   display: table;
   width: 100%;
-}
-.wqd1438084545967css .news-table .news-item {
   background-color: #f5f4f3;
   color: #5b5b5b;
   display: table-row;
   border-bottom: 1px solid #dcdddd;
+  -webkit-transition: all 250ms 50ms ease-in-out;
+  transition: all 250ms 50ms ease-in-out;
 }
-.wqd1438084545967css .news-table .news-item .date {
+.wqd1438084545967css .news-table li .date {
   width: 80px;
   padding: .5em 0;
   color: #cbcecf;
@@ -39,27 +31,40 @@
   display: table-cell;
   vertical-align: middle;
   font-weight: 600;
+  -webkit-transition: all 250ms 50ms ease-in-out;
+  transition: all 250ms 50ms ease-in-out;
 }
-.wqd1438084545967css .news-table .news-item .date strong {
+.wqd1438084545967css .news-table li .date .strong {
   font-size: 36px;
   display: block;
 }
-.wqd1438084545967css .news-table .news-item .title {
-  padding: .5em 1em .8em;
+.wqd1438084545967css .news-table li .title {
+  padding: .5em 1em 1em;
   display: table-cell;
 }
-.wqd1438084545967css .news-table .news-item .title h4 {
-  margin: .2em 0;
+.wqd1438084545967css .news-table li .title .text-h4 {
+  display: block;
+  margin: .3em 0;
+  color: #5b5b5b;
+  font-weight: 700;
+  font-size: 16px;
 }
-.wqd1438084545967css .news-table .news-item .title p {
+.wqd1438084545967css .news-table li .title .text-p {
+  display: block;
   margin: 0;
   font-size: 14px;
   line-height: 1.3em;
+  color: #5b5b5b;
 }
-.wqd1438084545967css .news-table .news-item:hover * {
+.wqd1438084545967css .news-table li:hover {
+  background: #46badd;
+}
+.wqd1438084545967css .news-table li:hover *,
+.wqd1438084545967css .news-table li:hover .title .text-h4,
+.wqd1438084545967css .news-table li:hover .title .text-p {
   color: #fff;
 }
-.wqd1438084545967css .news-table .news-item:hover .date {
+.wqd1438084545967css .news-table li:hover .date {
   background: #2291b3;
   border-right: 1px solid #56c5e7;
 }
