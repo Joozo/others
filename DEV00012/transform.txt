@@ -1,0 +1,7 @@
+  top: auto;
+  transform: translate3d(0px, 67px, 0px);
+  height: 873px;
+  background-image: url(http://www.kriesi.at/themes/enfold-one-page-portfolio/files/2015/02/laptop.jpg);
+  background-attachment: scroll;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
