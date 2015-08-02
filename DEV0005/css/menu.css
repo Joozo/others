@@ -1,4 +1,3 @@
-/* line 1, menu.less */
 .wqd1437053677569css {
   position: absolute;
   top: 40px;
@@ -9,7 +8,6 @@
   background: #fff;
   text-decoration: none;
 }
-/* line 10, menu.less */
 .wqd1437053677569css .logo {
   position: absolute;
   z-index: 701;
@@ -19,17 +17,14 @@
   cursor: pointer;
   max-width: 120px;
 }
-/* line 19, menu.less */
 .wqd1437053677569css .navbar-default {
   background-color: transparent;
   border-color: transparent;
 }
-/* line 23, menu.less */
 .wqd1437053677569css .navbar {
   min-height: 64px;
   margin-bottom: 20px;
 }
-/* line 27, menu.less */
 .wqd1437053677569css .navbar-nav > .active > a,
 .wqd1437053677569css .navbar-nav > .active > a:hover,
 .wqd1437053677569css .navbar-nav > .active > a:focus,
@@ -38,11 +33,9 @@
   color: #00cfef !important;
   background-color: transparent;
 }
-/* line 35, menu.less */
 .wqd1437053677569css .navbar-default .navbar-left > li > a {
   margin: 0px 46px;
 }
-/* line 38, menu.less */
 .wqd1437053677569css .navbar-default .navbar-nav > li > a {
   color: #2d2d2d;
   font-weight: 500;
@@ -54,11 +47,9 @@
   -webkit-transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   -moz-transition: 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-/* line 49, menu.less */
 .wqd1437053677569css .nav > li > a {
   padding: 20px 0;
 }
-/* line 52, menu.less */
 .wqd1437053677569css.sticky {
   position: fixed;
   top: 0;
@@ -67,33 +58,29 @@
   z-index: 998;
   -webkit-transform: translateZ(0);
 }
-/* line 60, menu.less */
 .wqd1437053677569css.headAnima {
   animation: wqd1437053677569css 1s ease 0ms both;
   -moz-animation: wqd1437053677569css 1s ease 0ms both;
   -webkit-animation: wqd1437053677569css 1s ease 0ms both;
   -o-animation: wqd1437053677569css 1s ease 0ms both;
 }
-/* line 66, menu.less */
 .wqd1437053677569css .container {
   font-size: 12px;
   line-height: 1.643;
 }
-/* line 70, menu.less */
 .wqd1437053677569css .brand {
   display: block;
   margin: 25px 24px 0 0;
   float: left;
   width: 162px;
-  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
 }
-/* line 77, menu.less */
 .wqd1437053677569css .fixedb {
   width: 130px;
   margin: 10px 24px 0 0;
   height: auto;
 }
-/* line 82, menu.less */
 .wqd1437053677569css .anima {
   animation: wqd1437053677569css 1s ease 0ms both;
   -moz-animation: wqd1437053677569css 1s ease 0ms both;
@@ -101,13 +88,11 @@
   -o-animation: wqd1437053677569css 1s ease 0ms both;
 }
 @keyframes wqd1437053677569css {
-  /* line 91, menu.less */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
-  /* line 96, menu.less */
   100% {
     opacity: 1;
     -webkit-transform: none;
@@ -115,41 +100,11 @@
   }
 }
 @-webkit-keyframes wqd1437053677569css {
-  /* line 104, menu.less */
   0% {
     opacity: 0;
     -webkit-transform: translate3d(0, -100%, 0);
     transform: translate3d(0, -100%, 0);
   }
-  /* line 109, menu.less */
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@-moz-keyframes wqd1437053677569css {
-  /* line 117, menu.less */
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  /* line 122, menu.less */
-  100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-  }
-}
-@-o-keyframes wqd1437053677569css {
-  /* line 130, menu.less */
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, -100%, 0);
-    transform: translate3d(0, -100%, 0);
-  }
-  /* line 135, menu.less */
   100% {
     opacity: 1;
     -webkit-transform: none;
@@ -157,52 +112,43 @@
   }
 }
 @media (min-width: 980px) and (max-width: 1169px) {
-  /* line 144, menu.less */
   .wqd1437053677569css .navbar-default .navbar-nav > li > a {
     font-size: 14px;
     margin: 0 26px;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 153, menu.less */
   .wqd1437053677569css .navbar-default .navbar-nav > li > a {
     font-size: 14px;
     margin: 0 15px;
   }
 }
 @media (max-width: 767px) {
-  /* line 161, menu.less */
   .wqd1437053677569css {
     top: 0;
   }
-  /* line 163, menu.less */
   .wqd1437053677569css .logo {
     left: 0;
   }
-  /* line 166, menu.less */
   .wqd1437053677569css .navbar-toggle {
     margin-top: 15px;
   }
-  /* line 169, menu.less */
   .wqd1437053677569css .navbar-default .navbar-nav > li > a {
     margin: 0;
     border-bottom: solid 3px #666666;
     line-height: 0px;
     float: none;
   }
-  /* line 175, menu.less */
   .wqd1437053677569css .navbar-default .navbar-nav > .active > a,
   .wqd1437053677569css .navbar-default .navbar-nav > .active > a:hover,
   .wqd1437053677569css .navbar-default .navbar-nav > .active > a:focus {
     border-bottom: solid 3px #00cfef !important;
   }
-  /* line 180, menu.less */
   .wqd1437053677569css .navbar-default .navbar-nav > li > a:hover,
   .wqd1437053677569css .navbar-default .navbar-nav > li > a:focus {
     color: #00cfef;
     border-bottom: solid 3px #00cfef;
   }
-  /* line 185, menu.less */
   .wqd1437053677569css .navbar-default .navbar-collapse {
     border-color: transparent;
     width: 100%;

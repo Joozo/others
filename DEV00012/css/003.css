@@ -1,0 +1,35 @@
+.wqd1438088033601css {
+  -webkit-transform: translate3d(0px, 75px, 0px);
+          transform: translate3d(0px, 75px, 0px);
+  height: auto;
+  background-image: url(../images/desat-gb_macbook.jpg);
+  background-attachment: scroll;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Microsoft Yahei";
+}
+.wqd1438088033601css .big-color {
+  background: #000;
+  opacity: 0.8;
+  padding: 120px 0;
+  color: #fff;
+}
+.wqd1438088033601css .carousel-inner {
+  padding: 0 50px;
+}
+.wqd1438088033601css .prev-next .fa {
+  font-size: 56px;
+  color: #6b6b6b;
+  transtionq: color 300ms ease-in-out;
+}
+.wqd1438088033601css .prev-next .fa:hover {
+  color: #fff;
+}
+.wqd1438088033601css .prev-next .item-prev {
+  float: left;
+}
+.wqd1438088033601css .prev-next .item-next {
+  float: right;
+}

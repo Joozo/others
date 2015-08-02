@@ -1,0 +1,49 @@
+.wqd1438088027849css {
+  padding: 4em 0;
+  transtion: all 500ms ease-in-out;
+  text-align: center;
+  background: #111;
+  color: #fff;
+}
+.wqd1438088027849css .icon-content {
+  padding: 0 5em;
+}
+.wqd1438088027849css .icon-content .image-container-inner {
+  width: 200px;
+  margin: 0 auto;
+  padding: 2em 0;
+}
+.wqd1438088027849css .icon-content .image-container-inner img {
+  border-radius: 50000px;
+}
+.wqd1438088027849css .icon-content .image-title {
+  padding-bottom: 10px;
+  font-size: 30px;
+  line-height: 1.2em;
+}
+.wqd1438088027849css .icon-content .hr {
+  display: block;
+  width: 50px;
+  margin: 50px auto;
+  border-top: solid 2px #4ecac2;
+}
+.wqd1438088027849css .icon-content .image-content {
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.wqd1438088027849css .icon-content .image-counter {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.wqd1438088027849css .icon-content .image-counter .number {
+  font-size: 50px;
+  line-height: 70px;
+  font-weight: 100;
+}
+.wqd1438088027849css .icon-content .image-counter .number-title {
+  font-size: 18px;
+  line-height: 30px;
+}
