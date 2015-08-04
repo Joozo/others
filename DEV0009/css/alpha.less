@@ -5,7 +5,7 @@
             background: #fff;
             border-radius: 6px;
             box-shadow: 0 2px 0 0 #e5e5e5;
-            padding: 3em;
+            padding: 4em;
             text-align: center;
             font-size: 16px;
             .features-row {
@@ -22,10 +22,6 @@
                 }
                 &:first-child {
                     border-top: 0;
-                    .sec {
-                        padding-top: 0;
-                        padding: 12px;
-                    }
                 }
                 .sec {
                     float: left;
@@ -43,6 +39,7 @@
                             height: 100%;
                             margin-left: -3em;
                             position: absolute;
+                            right: 50%;
                             top: 0;
                             width: 2px;
                         }
@@ -102,10 +99,13 @@
             .text-h3 {
                 font-size: 2em;
                 line-height: 2em;
+                margin: 0.5em 0;
+                font-weight: 100;
             }
             .text-p {
                 margin: 0 0 2em 0;
-                line-height: 1.5em;
+                line-height: 1.8em;
+                font-weight: 100;
             }
         }
     }
@@ -162,6 +162,9 @@
                     border-bottom: solid 2px #e5e5e5;
                     &.none {
                         border-bottom: none;
+                    }
+                    &:nth-child(2n):before {
+                        background: transparent;
                     }
                 }
             }

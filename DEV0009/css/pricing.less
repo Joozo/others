@@ -9,8 +9,10 @@
         color: #111;
     }
     .text-center .text-p {
-        margin-bottom: 50px;
         padding-bottom: 20px;
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 50px;
     }
     .plan {
         position: relative;
@@ -26,6 +28,11 @@
         &:hover {
             background: #000;
         }
+    }
+    .img {
+        position: absolute;
+        right: 15px;
+        top: 0;
     }
     .pricing-area ul.pri {
         background: #FAFAFA;
@@ -90,5 +97,44 @@
         border: 1px solid transparent;
         border-radius: 4px;
         background-color: #0BA9F9;
+    }
+}
+
+@-webkit-keyframes wqd1438087980183cssfadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes wqd1438087980183cssfadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.wqd1438087980183cssfadeInDown {
+    animation:wqd1438087980183cssfadeInDown 1s ease both;
+    &.delay2 {
+        animation-delay: 0.2s;
+    }
+    &.delay6 {
+        animation-delay: 0.6s;
+    }
+    &.delay9 {
+        animation-delay: 0.9s;
     }
 }

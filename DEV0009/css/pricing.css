@@ -10,8 +10,10 @@
   color: #111;
 }
 .wqd1438087980183css .text-center .text-p {
-  margin-bottom: 50px;
   padding-bottom: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 .wqd1438087980183css .plan {
   position: relative;
@@ -29,6 +31,11 @@
 .wqd1438087980183css .pricing-area .heading-two:hover,
 .wqd1438087980183css .pricing-area .heading-three:hover {
   background: #000;
+}
+.wqd1438087980183css .img {
+  position: absolute;
+  right: 15px;
+  top: 0;
 }
 .wqd1438087980183css .pricing-area ul.pri {
   background: #FAFAFA;
@@ -93,4 +100,44 @@
   border: 1px solid transparent;
   border-radius: 4px;
   background-color: #0BA9F9;
+}
+@-webkit-keyframes wqd1438087980183cssfadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes wqd1438087980183cssfadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.wqd1438087980183cssfadeInDown {
+  -webkit-animation: wqd1438087980183cssfadeInDown 1s ease both;
+          animation: wqd1438087980183cssfadeInDown 1s ease both;
+}
+.wqd1438087980183cssfadeInDown.delay2 {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.wqd1438087980183cssfadeInDown.delay6 {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+.wqd1438087980183cssfadeInDown.delay9 {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
 }

@@ -6,7 +6,7 @@
   background: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 0 0 #e5e5e5;
-  padding: 3em;
+  padding: 4em;
   text-align: center;
   font-size: 16px;
 }
@@ -26,10 +26,6 @@
 .wqd1438087955255css .features .features-row:first-child {
   border-top: 0;
 }
-.wqd1438087955255css .features .features-row:first-child .sec {
-  padding-top: 0;
-  padding: 12px;
-}
 .wqd1438087955255css .features .features-row .sec {
   float: left;
   padding: 3em;
@@ -48,6 +44,7 @@
   height: 100%;
   margin-left: -3em;
   position: absolute;
+  right: 50%;
   top: 0;
   width: 2px;
 }
@@ -104,10 +101,13 @@
 .wqd1438087955255css .features .text-h3 {
   font-size: 2em;
   line-height: 2em;
+  margin: 0.5em 0;
+  font-weight: 100;
 }
 .wqd1438087955255css .features .text-p {
   margin: 0 0 2em 0;
-  line-height: 1.5em;
+  line-height: 1.8em;
+  font-weight: 100;
 }
 @media (min-width: 980px) and (max-width: 1169px) {
   .wqd1438087955255css .icon:before {
@@ -155,5 +155,8 @@
   }
   .wqd1438087955255css .features .features-row .sec.none {
     border-bottom: none;
+  }
+  .wqd1438087955255css .features .features-row .sec:nth-child(2n):before {
+    background: transparent;
   }
 }
