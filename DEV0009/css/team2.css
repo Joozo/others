@@ -2,6 +2,7 @@
   padding-top: 70px;
   padding-bottom: 70px;
   background: #f4f4f4;
+  overflow: hidden;
 }
 .wqd1438087994549css .text-center {
   padding-top: 20px;
@@ -11,6 +12,7 @@
 .wqd1438087994549css .text-center .text-h2 {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 20px;
 }
 .wqd1438087994549css .text-center .text-h3 {
   font-size: 35px;
@@ -30,4 +32,86 @@
 .wqd1438087994549css .text-center .img-responsive {
   border-radius: 8px;
   width: 100%;
+}
+@media (min-width: 992px) and (max-width: 1169px) {
+  .wqd1438087994549css .text-center .text-h2 {
+    font-size: 20px !important;
+  }
+  .wqd1438087994549css .text-center .text-h2 span {
+    font-size: 20px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .wqd1438087994549css .text-center .text-h2 {
+    font-size: 20px !important;
+  }
+  .wqd1438087994549css .text-center .text-h2 span {
+    font-size: 20px !important;
+  }
+}
+@-webkit-keyframes wqd1438087994549cssleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes wqd1438087994549cssleft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.wqd1438087994549cssleft {
+  animation: wqd1438087994549cssleft 1s ease both;
+}
+.wqd1438087994549cssleft.delay1 {
+  animation-delay: 80ms;
+}
+.wqd1438087994549cssleft.delay2 {
+  animation-delay: 120ms;
+}
+@-webkit-keyframes wqd1438087994549cssright {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes wqd1438087994549cssright {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.wqd1438087994549cssright {
+  animation: wqd1438087994549cssright 1s ease both;
+}
+.wqd1438087994549cssright.delay1 {
+  animation-delay: 80ms;
+}
+.wqd1438087994549cssright.delay2 {
+  animation-delay: 120ms;
 }

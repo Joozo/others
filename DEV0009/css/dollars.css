@@ -183,20 +183,16 @@
   }
 }
 .wqd1438087973428cssleft {
-  -webkit-animation: wqd1438087973428cssleft 1s ease both;
-          animation: wqd1438087973428cssleft 1s ease both;
+  animation: wqd1438087973428cssleft 1s ease both;
 }
 .wqd1438087973428cssleft.delay1 {
-  -webkit-animation-delay: 100ms;
-          animation-delay: 100ms;
+  animation-delay: 100ms;
 }
 .wqd1438087973428cssleft.delay2 {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 .wqd1438087973428cssleft.delay3 {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  animation-delay: 300ms;
 }
 @-webkit-keyframes wqd1438087973428cssright {
   0% {
@@ -223,18 +219,14 @@
   }
 }
 .wqd1438087973428cssright {
-  -webkit-animation: wqd1438087973428cssright 1s ease both;
-          animation: wqd1438087973428cssright 1s ease both;
+  animation: wqd1438087973428cssright 1s ease both;
 }
 .wqd1438087973428cssright.delay1 {
-  -webkit-animation-delay: 100ms;
-          animation-delay: 100ms;
+  animation-delay: 100ms;
 }
 .wqd1438087973428cssright.delay2 {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 .wqd1438087973428cssright.delay3 {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  animation-delay: 300ms;
 }

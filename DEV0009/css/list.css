@@ -14,6 +14,9 @@
   display: table-row;
   border-bottom: 1px solid #dcdddd;
   -webkit-transition: all 250ms 50ms ease-in-out;
+  -moz-transition: all 250ms 50ms ease-in-out;
+  -ms-transition: all 250ms 50ms ease-in-out;
+  -o-transition: all 250ms 50ms ease-in-out;
   transition: all 250ms 50ms ease-in-out;
 }
 .wqd1438084545967css .news-table li .date {
@@ -32,6 +35,9 @@
   vertical-align: middle;
   font-weight: 600;
   -webkit-transition: all 250ms 50ms ease-in-out;
+  -moz-transition: all 250ms 50ms ease-in-out;
+  -ms-transition: all 250ms 50ms ease-in-out;
+  -o-transition: all 250ms 50ms ease-in-out;
   transition: all 250ms 50ms ease-in-out;
 }
 .wqd1438084545967css .news-table li .date .strong {

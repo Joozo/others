@@ -10,13 +10,13 @@ $(function(){
                 $(".wqd1437053677569css").removeClass("anima");
             },1000);
             $(".wqd1437053677569css .brand").addClass("fixedb");
-            $(".wqd1437053677569css .resMainMenu .navbar-nav>li>a").addClass("fixeda");
-            $(".wqd1437053677569css .nav-bar-child").addClass("fixedch");
+            $(".wqd1437053677569css .resMainMenu .ct-navbar-nav>li>a").addClass("fixeda");
+            $(".wqd1437053677569css .ct-nav-bar-child").addClass("fixedch");
         }else{
             $(".wqd1437053677569css").removeClass("sticky anima");
             $(".wqd1437053677569css .brand").removeClass("fixedb");
-            $(".wqd1437053677569css .resMainMenu .navbar-nav>li>a").removeClass("fixeda");
-            $(".wqd1437053677569css .nav-bar-child").removeClass("fixedch");
+            $(".wqd1437053677569css .resMainMenu .ct-navbar-nav>li>a").removeClass("fixeda");
+            $(".wqd1437053677569css .ct-nav-bar-child").removeClass("fixedch");
         }
     });
 });
